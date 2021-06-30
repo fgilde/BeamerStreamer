@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeamerStreamer", "BeamerStreamer\BeamerStreamer.csproj", "{12921DE6-0073-4539-9D16-88BD52CE224D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assemblies", "Assemblies\Assemblies.csproj", "{C495A817-7A2D-40B8-9E01-C957F04540B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShaderEffectLibrary", "ShaderEffectLibrary\WPFShaderEffectLibrary.csproj", "{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSoundVisualizationLib", "WPFSoundVisualizationLibrary\WPFSoundVisualizationLib.csproj", "{90F96222-1C39-4A19-ABE8-1B00FB330985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTransitionEffects", "TransitionEffects\WPFTransitionEffects.csproj", "{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectX.Capture", "DirectX.Capture\DirectX.Capture.csproj", "{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DShowNET", "DShowNET\DShowNET.csproj", "{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectX.Capture.Src", "DirectX.Capture.Src", "{5BC12E39-C825-43E5-BDCA-195093890285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssembliesExt", "AssembliesExt", "{9079C18C-A458-4C13-B9E9-F46B6B5B509A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptureTest", "CaptureTest\CaptureTest.csproj", "{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF MediaKit", "WPF MediaKit\WPF MediaKit.csproj", "{73154957-3D91-48DA-8068-D425B523ED93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12921DE6-0073-4539-9D16-88BD52CE224D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12921DE6-0073-4539-9D16-88BD52CE224D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12921DE6-0073-4539-9D16-88BD52CE224D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12921DE6-0073-4539-9D16-88BD52CE224D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C495A817-7A2D-40B8-9E01-C957F04540B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C495A817-7A2D-40B8-9E01-C957F04540B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C495A817-7A2D-40B8-9E01-C957F04540B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967D61A9-C8F0-4C2A-A784-6CDA648ECB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F96222-1C39-4A19-ABE8-1B00FB330985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F96222-1C39-4A19-ABE8-1B00FB330985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F96222-1C39-4A19-ABE8-1B00FB330985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F96222-1C39-4A19-ABE8-1B00FB330985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEDF2F2-D59E-4797-A5AE-13A25E679F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C495A817-7A2D-40B8-9E01-C957F04540B0} = {9079C18C-A458-4C13-B9E9-F46B6B5B509A}
+		{8C0015DB-69E1-46E7-8705-3A4F8BE2E5E7} = {5BC12E39-C825-43E5-BDCA-195093890285}
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE} = {5BC12E39-C825-43E5-BDCA-195093890285}
+		{49FE20D6-7F04-42B2-A3E0-C5B7A2283EFD} = {5BC12E39-C825-43E5-BDCA-195093890285}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nksoft.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BeamerStreamer\\BeamerStreamer.csproj
+		SccProjectName1 = BeamerStreamer
+		SccLocalPath1 = BeamerStreamer
+		SccProjectUniqueName2 = Assemblies\\Assemblies.csproj
+		SccProjectTopLevelParentUniqueName2 = BeamerStreamer.sln
+		SccProjectName2 = Assemblies
+		SccLocalPath2 = Assemblies
+		SccProjectUniqueName3 = ShaderEffectLibrary\\WPFShaderEffectLibrary.csproj
+		SccProjectName3 = ShaderEffectLibrary
+		SccLocalPath3 = ShaderEffectLibrary
+		SccProjectUniqueName4 = WPFSoundVisualizationLibrary\\WPFSoundVisualizationLib.csproj
+		SccProjectName4 = WPFSoundVisualizationLibrary
+		SccLocalPath4 = WPFSoundVisualizationLibrary
+		SccProjectUniqueName5 = TransitionEffects\\WPFTransitionEffects.csproj
+		SccProjectName5 = TransitionEffects
+		SccLocalPath5 = TransitionEffects
+		SccProjectUniqueName6 = DirectX.Capture\\DirectX.Capture.csproj
+		SccProjectTopLevelParentUniqueName6 = BeamerStreamer.sln
+		SccProjectName6 = DirectX.Capture
+		SccLocalPath6 = DirectX.Capture
+		SccProjectUniqueName7 = DShowNET\\DShowNET.csproj
+		SccProjectTopLevelParentUniqueName7 = BeamerStreamer.sln
+		SccProjectName7 = DShowNET
+		SccLocalPath7 = DShowNET
+		SccProjectUniqueName8 = CaptureTest\\CaptureTest.csproj
+		SccProjectTopLevelParentUniqueName8 = BeamerStreamer.sln
+		SccProjectName8 = CaptureTest
+		SccLocalPath8 = CaptureTest
+		SccProjectUniqueName9 = WPF\u0020MediaKit\\WPF\u0020MediaKit.csproj
+		SccProjectName9 = WPF\u0020MediaKit
+		SccLocalPath9 = WPF\u0020MediaKit
+	EndGlobalSection
+EndGlobal

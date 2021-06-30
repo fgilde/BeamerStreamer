@@ -1,0 +1,44 @@
+﻿<Window x:Class="BeamerStreamer.Controls.InputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeamerStreamer.Controls"
+        mc:Ignorable="d"        
+        Title="InputDialog" 
+        Height="130" 
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        HorizontalAlignment="Stretch"
+        Top="20"        
+        WindowStartupLocation="Manual"
+        VerticalAlignment="Top"
+        Opacity="0.6"
+        Width="700"
+        Background="{StaticResource SystemOverlayBackgroundBrush}"
+        MouseMove="InputDialog_OnMouseMove"
+        BorderBrush="LightGray"
+        BorderThickness="1">
+    <Grid Height="100">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+            
+        <TextBlock Foreground="White"
+                   FontWeight="Bold"
+                   FontSize="12pt"
+                   VerticalAlignment="Center"
+                   Margin="15,5,0,0"
+                   Text="Enter name:"/>
+        
+        <TextBox Grid.Row="1" x:Name="textBox" Margin="15, 5, 15, 5" Text="{Binding Value}"/>
+
+        <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal">
+            <Button Margin="5" Width="100" Content="Cancel" Click="CancelClick"/>
+            <Button Margin="5,5,15,5" Width="100" Content="Ok" Click="OkClick"/>
+        </StackPanel>
+    </Grid>
+</Window>
