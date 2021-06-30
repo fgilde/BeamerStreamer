@@ -24,6 +24,8 @@ To see it in Action you can checkout theese YouTube videos
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JhQFlL-AuIA/0.jpg)](https://www.youtube.com/watch?v=JhQFlL-AuIA)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Xo5VpuMKPO4/0.jpg)](https://www.youtube.com/watch?v=Xo5VpuMKPO4)
+
 ## Music Visualization
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Y6_CdDy4R8c/0.jpg)](https://www.youtube.com/watch?v=Y6_CdDy4R8c)
